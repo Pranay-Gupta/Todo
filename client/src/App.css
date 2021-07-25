@@ -1,0 +1,21 @@
+
+
+.app__main{
+    overflow-x: hidden;
+    display: flex;
+    margin-top: 50px;
+}
+.app__main__sidebar{ 
+    flex: 0.2;
+    position: fixed;
+    left: 0;
+    width: 20%;
+    
+}
+.app__main__body{
+    flex: 0.8;
+    position: absolute;
+    right: 0;
+    width: 80%;
+    overflow-x: hidden;
+}

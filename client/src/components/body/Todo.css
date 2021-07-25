@@ -1,0 +1,29 @@
+.todo{
+    
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 4px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.171);
+}
+.todo:hover{
+    background-color: rgba(153, 150, 150, 0.322);
+    cursor: pointer;
+    font-weight:bolder;
+}
+
+.todo__title{
+    display: flex;
+    align-items: center;
+    flex: 0.96;
+}
+.todo__title > p{
+    margin-left: 10px;
+}
+.todo__rightSection__delete:hover{
+    color: rgb(255, 83, 83);
+}
+
+.markedImportant{
+    color : blue;
+}

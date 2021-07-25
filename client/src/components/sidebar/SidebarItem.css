@@ -1,0 +1,23 @@
+.sidebarItem{
+    display: flex;
+    color: rgb(68, 68, 68);
+    padding: 12px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.171);
+    font-weight: lighter;
+}
+.sidebarItem:hover{
+    background-color: rgba(23, 73, 240, 0.082);
+    cursor: pointer;
+}
+
+.sidebarItems__icon{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+.sidebarItems__icon> .MuiSvgIcon-root{
+    font-size: 1rem
+    
+}
